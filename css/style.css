@@ -1,0 +1,20 @@
+
+/*Fonts to consider: */
+/*font-family: 'Seymour One', sans-serif;*/
+/*font-family: 'Orbitron', sans-serif;*/
+/*font-family: 'Aldrich', sans-serif;*/
+/*font-family: 'Cutive Mono', monospace;*/
+
+.header {
+  border: solid 1px red;
+  padding: 50px;
+}
+
+.header h1 {
+  /* size | family */
+  font: 4em sans-serif;
+}
+
+.header h3 {
+  font: 2em 'Cutive Mono', monospace;
+}
