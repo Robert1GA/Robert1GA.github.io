@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
+    <!--using for typewriting KEEP-->
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+
     <!-- Linking fonts / some only temporarily while I decide which to keep -->
     <link href="https://fonts.googleapis.com/css?family=Aldrich|Orbitron|Seymour+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Bahiana|Bree+Serif|Denk+One|Emblema+One|Fjalla+One|Hammersmith+One|Holtwood+One+SC|Lobster|Luckiest+Guy|Macondo+Swash+Caps|Nova+Flat|Orbitron|Play:700|Playfair+Display+SC:700,900|Prompt:700,800,900|Righteous|Risque|Rum+Raisin|Shrikhand|Stalinist+One|Teko:400,700" rel="stylesheet"> -->
   </head>
   <body>
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -33,35 +36,75 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Resume</a></li>
+            <li><a href="#">Work</a></li>
             <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
             <li><a href="#">About Me</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div>
-      <div class="header">
-        <div>
-          <h1>Robert Spears</h1>
-          <h3 id="job-position"></h3>
-        </div>
-        <div>
-          <button class="btn btn-primary">Projects</button>
-          <button class="btn btn-primary">Skills</button>
-          <button class="btn btn-primary">About Me</button>
-        </div>
-        <div>
-          <a href="#">View Github</a>
-          <a href="#">View Resume</a>
+    <div id="container">
+      <div>
+        <div class="header">
+          <div>
+            <h1>Robert Spears</h1>
+            <h3 id="position-seeking"></h3>
+          </div>
+          <div class="header-buttons">
+            <button class="btn btn-primary">Projects</button>
+            <button class="btn btn-primary">Skills</button>
+            <button class="btn btn-primary">About Me</button>
+          </div>
+          <div class="header-links">
+            <a href="#">View LinkedIn</a>
+            <a href="#">View Github</a>
+            <a href="#">View Resume</a>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="projects container-fluid">
+        <h1>My Projects</h1>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xm-12">
+            <div class="projects-details">
+              <img src="#" />
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xm-12">
+            <div class="projects-details">
+              <img src="#" />
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xm-12">
+            <div class="projects-details">
+              <img src="#" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xm-12">
+            <div class="projects-details">
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xm-12">
+            <div class="projects-details">
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xm-12">
+            <div class="projects-details">
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
-    <div class="footer">
+      <div class="footer">
+        <i class="fa fa-linkedin" aria-hidden="true"> </i>
+        <i class="fa fa-github" aria-hidden="true"> </i>
+        <i class="fa fa-envelope" aria-hidden="true"> </i>
         <p>&copy; 2017 Robert R. Spears III</p>
+      </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
