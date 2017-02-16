@@ -41,7 +41,7 @@ body {
 }
 
 .header {
-  /*background-color: #801FFF;*/
+  /*background-color: RGBA(128,31,255,1);*/
   text-align: center;
   border: solid 1px red;
   margin-top: 0;
@@ -51,6 +51,7 @@ body {
 .header h1 {
   /* size | family */
   font: 7em 'Arial', sans-serif;
+  padding-top: 70px;
 }
 
 .header h3 {
@@ -87,6 +88,23 @@ body {
   /*height: 200px;*/
 }
 
+.skills {
+  padding-bottom:80px;   /* Height of the footer */
+}
+
+.skills h1 {
+  font: 2em 'Arial', sans-serif;
+  text-align: center;
+}
+
+.about {
+  padding-bottom:80px;   /* Height of the footer */
+}
+
+.about h1 {
+  font: 2em 'Arial', sans-serif;
+  text-align: center;
+}
 
 
 .footer {

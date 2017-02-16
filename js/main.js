@@ -6,4 +6,6 @@ $(document).ready(function() {
     speed: 100,
     startDelay: 400
   })
+
+  
 })
