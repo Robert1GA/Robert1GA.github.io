@@ -5,123 +5,231 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Robert Spears - Developer</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="css/style.css">
+    <!-- Originals -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/prism.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
     <!--using for typewriting KEEP-->
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
-
     <!-- Linking fonts / some only temporarily while I decide which to keep -->
     <link href="https://fonts.googleapis.com/css?family=Aldrich|Orbitron|Seymour+One" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Bahiana|Bree+Serif|Denk+One|Emblema+One|Fjalla+One|Hammersmith+One|Holtwood+One+SC|Lobster|Luckiest+Guy|Macondo+Swash+Caps|Nova+Flat|Orbitron|Play:700|Playfair+Display+SC:700,900|Prompt:700,800,900|Righteous|Risque|Rum+Raisin|Shrikhand|Stalinist+One|Teko:400,700" rel="stylesheet"> -->
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>
+</head>
+<body data-spy="scroll">
+
+    <!-- ******HEADER****** -->
+    <header id="header" class="header">
+        <div class="container">
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">RobertSpears</span>
+                </a>
+            </h1><!--//logo-->
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#resume">Resume</a></li>
+                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Robert Spears</a></li>
-            <li><a href="#"></a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">About Me</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    <div id="container">
-      <div>
-        <div class="header">
-          <div>
-            <h1>Robert Spears</h1>
-            <h3 id="position-seeking"></h3>
-          </div>
-          <div class="header-buttons">
-            <button class="btn btn-lg btn-primary">Projects</button>
-            <button class="btn btn-lg btn-primary">Skills</button>
-            <button class="btn btn-lg btn-primary">About Me</button>
-          </div>
-          <div class="header-links">
-            <a href="#">View LinkedIn</a>
-            <a href="#">View Github</a>
-            <a href="#">View Resume</a>
-          </div>
+    </header><!--//header-->
+
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header">
+        <div class="container text-center">
+            <h2 class="title">Robert<span class="highlight">Spears</span></h2>
+            <p class="intro" id="position-seeking"></p>
+            <div class="btns">
+                <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/" target="_blank">Projects</a>
+                <a class="btn btn-cta-primary" href="http://themes.3rdwavemedia.com/website-templates/devaid-free-bootstrap-theme-developers/" target="_blank">Skills</a>
+                <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/website-templates/devaid-free-bootstrap-theme-developers/" target="_blank">Contact</a>
+            </div>
+        </div><
+        <div class="social-media header-links">
+          <a href="#">View LinkedIn</a>
+          <a href="#">View Github</a>
+          <a href="#">View Resume</a>
         </div>
-      </div>
-      <div class="projects container-fluid">
-        <h1>My Projects</h1>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xm-12">
-            <div class="projects-details">
-              <img src="img/BlackjackProj.jpeg" />
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xm-12">
-            <div class="projects-details">
-              <img src="#" />
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xm-12">
-            <div class="projects-details">
-              <img src="#" />
-            </div>
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xm-12">
-            <div class="projects-details">
-              <img src="img/8BitChat.gif" />
+    </section>
+
+    <!-- ******PROJECTS****** -->
+    <section id="projects" class="about section">
+        <div class="container">
+          <h1 class="title text-center">Projects Section</h1>
+          <div class="projects container-fluid">
+            <h1>My Projects</h1>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 col-xm-12">
+                <div class="projects-details">
+                  <img src="img/BlackjackProj.jpeg" />
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xm-12">
+                <div class="projects-details">
+                  <img src="#" />
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xm-12">
+                <div class="projects-details">
+                  <img src="#" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 col-xm-12">
+                <div class="projects-details">
+                  <img id="eightbitgif" src="img/8BitChat.jpeg" />
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xm-12">
+                <div class="projects-details">
+                  <img src="#" />
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xm-12">
+                <div class="projects-details">
+                  <img src="#" />
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xm-12">
-            <div class="projects-details">
-              <img src="#" />
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xm-12">
-            <div class="projects-details">
-              <img src="#" />
-            </div>
-          </div>
+
         </div>
-      </div>
-      <div class="skills">
-        <h1>Skills</h1>
-      </div>
-      <div class="about">
-        <h1>About Me</h1>
-      </div>
+    </section>
+
+    <!-- ******SKILLS****** -->
+    <section id="skills" class="skills section">
+        <div class="container text-center">
+            <h2 class="title">Skills</h2>
+            <ul class="feature-list list-unstyled">
+                <li><i class="fa fa-check"></i> Fully responsive</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ******RESUME****** -->
+    <section id="resume" class="docs section">
+        <div class="container">
+            <div class="docs-inner">
+            <h2 class="title text-center">Resume</h2>
+            <div class="block">
+                <h3 class="sub-title text-center">Work Experience</h3>
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+    &lttitle&gt Full Stack Web Developer &lt/title&gt
+    &ltcompany&gt General Assembly Seattle &lt/company&gt
+    &lttime-period&gt November 2016 - February 2017 &lt/time-period&gt
+
+    &ltdescription&gt
+    A 12-week full stack web development course with
+    480 hours of classroom instruction, 50-70 hours per week of work
+    and 4 projects.
+
+    Skills Learned: HTML/CSS, Javascript, jQuery, PostgreSQL, MongoDB,
+    Node/Express, Python, AngularJS, ReactJS, Bootstrap, APIs
+    &lt/description&gt
+
+    &lt!------------------------&gt
+
+    &lttitle&gt ITC Analyst &lt/title&gt
+    &ltcompany&gt Sheppard Robson &lt/company&gt
+    &lttime-period&gt March 2016 - September 2016 &lt/time-period&gt
+
+    &ltdescription&gt
+    -Diagnose and resolve technical hardware and software issues.
+    &lt/description&gt
+
+                     </code></pre>
+                </div>
+            </div>
+
+            <div class="block">
+                <h3 class="sub-title text-center">View Resume</h3>
+                <p class="text-center">
+                    <a class="btn btn-cta-primary" href="#" target="_blank">PDF Resume</a>
+                    <a class="btn btn-cta-primary" href="#" target="_blank">Markdown Resume</a>
+                </p>
+            </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
-      <div class="footer">
-        <i class="fa fa-linkedin" aria-hidden="true"> </i>
-        <i class="fa fa-github" aria-hidden="true"> </i>
-        <i class="fa fa-envelope" aria-hidden="true"> </i>
-        <i class="fa fa-phone" aria-hidden="true"> </i>
-        <p>&copy; 2017 Robert R. Spears III</p>
-      </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Contact</h2>
+                <p class="intro  text-center">Feel free to get in touch if you have any questions or suggestions.</p>
+                <div class="author-message">
+                    <div class="profile">
+                        <img class="img-responsive" src="#" alt="" />
+                    </div><!--//profile-->
+                    <div class="speech-bubble">
+                        <h3 class="sub-title"><strong>About Me</strong></h3>
+                        <p>Lorem ipsum</p>
+                        <div class="source">
+                            <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Robert Spears</a></span>
+                            <br />
+                            <span class="title">Full Stack Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="info text-center">
+                    <h4 class="sub-title">Get Connected</h4>
+                    <ul class="social-icons list-inline">
+                        <li><a href="https://www.linkedin.com/in/robertspears1/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Robert1GA"><i class="fa fa-github"></i></a></li>
+                        <li class="last"><a href="mailto:#"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">&copy; 2017 Robert R. Spears III</small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.easing.1.3.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
     <script src="js/plugins/jquery.scrollTo.min.js"></script>
+
+    <script src="js/plugins/prism-min.js"></script>
     <script src="js/main.js"></script>
-  </body>
+</body>
 </html>
