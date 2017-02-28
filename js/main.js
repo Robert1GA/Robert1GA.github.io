@@ -51,7 +51,7 @@ $(document).ready(function() {
 
   // Highlight the top nav as scrolling occurs  -- NEW ONE
     $('body').scrollspy({
-        target: '.navbar-fixed-top',
+        target: '.navbar-right',
         offset: 51
     });
 })
