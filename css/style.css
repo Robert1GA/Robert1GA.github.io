@@ -209,6 +209,7 @@ pre code {
 }
 .header .main-nav .nav .nav-item a {
   color: #0a7396; /* Color #1D */
+  color: #074f66;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -267,7 +268,7 @@ pre code {
   border: 1px solid transparent;
  }
 
-/* ======= heading Section ======= */
+/* ======= Heading Section ======= */
 .header-links {
   text-align: center;
 }
@@ -343,7 +344,7 @@ pre code {
 }
 /* ======= Projects Section ======= */
 .projects {
-  padding: 30px 0;
+  padding: 80px 0 30px 0;
   background: #f5f5f5; /* Color #D */
 }
 .projects .title {
@@ -377,10 +378,6 @@ pre code {
   color:  #074f66; /* Color #3 */;
   font-size: 18px;
 }
-.projects {
-  padding-bottom:80px;   /* Height of the footer */
-}
-
 .projects-details {
   /*border: 1px solid blue;*/
   /*height: 300px; */
@@ -390,12 +387,10 @@ pre code {
 .projects-details img {
   border: 1px solid #074f66;
   width: 100%;
-  height: 160px;
-  height: 67.777777777777778%;
+  height: 200px;
+  /*height: 67.777777777777778%;*/
 }
-.projects {
-  padding-bottom:80px;   /* Height of the footer */
-}
+
 /* ======= Skills Section ======= */
 .skills {
   padding: 80px 0;
