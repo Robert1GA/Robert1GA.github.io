@@ -248,15 +248,24 @@ pre code {
   font-size: 1.2em;
   padding: 0 20px;
 }
-/*.header {
+ .btn-resume {
+  background: #074f66;
+  color: #fff !important;
+  border-radius: 4px;
+  border-color: #adadad;
+  text-decoration: none;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
   text-align: center;
-  margin-top: 0;
-  padding: 50px 0;
-}*/
-/*.header h3 {
-  font: 2em 'Cutive Mono', monospace;
-}*/
-
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+ }
 
 /* ======= heading Section ======= */
 .header-links {
@@ -374,7 +383,7 @@ pre code {
 
 .projects-details {
   /*border: 1px solid blue;*/
-  height: 300px; /*temp*/
+  /*height: 300px; */
   padding-bottom:60px;   /* Height of the footer */
 }
 
@@ -413,7 +422,12 @@ pre code {
   margin-right: 5px;
   color: #fff; /* Color #4 */
 }
-.skills h1, h2, h3, h4, h5, h6 {
+.skills h1,
+.skills h2,
+.skills h3,
+.skills h4,
+.skills h5,
+.skills h6 {
   color: white;
   display: inline-block;
 }
