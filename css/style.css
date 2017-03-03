@@ -127,10 +127,10 @@ a.btn-cta-secondary,
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: #ecb728; /* Color #2C */
-  background: #C25B56;
-  border: 1px solid #ecb728; /* Color #2C */
-  border: 1px solid #C25B56;
+  background: #ecb728; /* Color #2-Dark */
+  background: #b54741;
+  border: 1px solid #ecb728; /* Color #2-Dark */
+  border: 1px solid #b54741;
   color: #fff; /* Color #4 */
 }
 .text-highlight {
@@ -205,7 +205,7 @@ pre code {
 .header .main-nav .nav .nav-item.active a {
   color: #17baef; /* Color #1 */
   color: #C25B56;
-  background: none;
+  background: #074f66;
 }
 .header .main-nav .nav .nav-item a {
   color: #0a7396; /* Color #1D */
@@ -214,7 +214,7 @@ pre code {
   -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
-  font-size: 14px;
+  font-size: 16px;
   padding: 15px 10px;
 }
 .header .main-nav .nav .nav-item a:hover {
@@ -249,7 +249,7 @@ pre code {
   font-size: 1.2em;
   padding: 0 20px;
 }
- .btn-resume {
+ /*.btn-resume {
   background: #074f66;
   color: #fff !important;
   border-radius: 4px;
@@ -266,6 +266,9 @@ pre code {
   touch-action: manipulation;
   cursor: pointer;
   border: 1px solid transparent;
+ }*/
+ .logo-title {
+   font-weight: bold;
  }
 
 /* ======= Heading Section ======= */
@@ -379,16 +382,21 @@ pre code {
   font-size: 18px;
 }
 .projects-details {
-  /*border: 1px solid blue;*/
-  /*height: 300px; */
   padding-bottom:60px;   /* Height of the footer */
 }
 
 .projects-details img {
   border: 1px solid #074f66;
+  margin-bottom: 5px;
   width: 100%;
   height: 200px;
   /*height: 67.777777777777778%;*/
+}
+/*.projects-details:hover img {
+  height: 210px;
+}*/
+.projects-details p {
+  text-align: justify;
 }
 
 /* ======= Skills Section ======= */
@@ -655,6 +663,9 @@ pre code {
   color: #0c86ae;  /* Color #1C */
   color: #074f66;
 }
+.speech-bubble p {
+  text-align: justify;
+}
 .contact .info .sub-title {
   color: #0e98c5; /* Color #1B */
   color: #74828F;
@@ -772,6 +783,9 @@ pre code {
   .contact .author-message .speech-bubble:after {
     display: none;
   }
+  .code-block {
+    display: none;
+  }
   .contact .social-icons a {
     width: 36px;
     height: 36px;
@@ -790,46 +804,7 @@ pre code {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navbar-custom {
-  background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: none;
-}
-.navbar-custom a:focus {
-  outline: none;
-}
-.navbar-custom .navbar-brand {
-  color: white;
-}
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
-  color: white;
-}
-.navbar-custom .navbar-nav {
-  letter-spacing: 1px;
-}
-.navbar-custom .navbar-nav li a {
-  color: white;
-}
-.navbar-custom .navbar-nav li a:hover {
+/*.navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;
   outline: none;
 }
@@ -858,4 +833,4 @@ pre code {
   background-color: #18BC9C;
   color: white;
   border-color: #18BC9C;
-}
+}*/
