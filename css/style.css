@@ -204,7 +204,7 @@ pre code {
 }
 .header .main-nav .nav .nav-item.active a {
   color: #17baef; /* Color #1 */
-  color: #C25B56;
+  color: #fff; /* Plain white better if there's a background color */
   background: #074f66;
 }
 .header .main-nav .nav .nav-item a {
