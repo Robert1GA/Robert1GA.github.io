@@ -222,6 +222,9 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
+.nav > li > a:focus {
+  background-color: transparent; /*overwriting bootstrap */
+}
 .header h1 {
   /* size | family */
   font: 7em 'Arial', sans-serif;
@@ -685,6 +688,12 @@ pre code {
 }
 
 
+/* Small devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+  .logo-title {
+    font-size: .8em;
+  }
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .main-nav button {
@@ -744,6 +753,7 @@ pre code {
     height: 80px;
   }
 }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
