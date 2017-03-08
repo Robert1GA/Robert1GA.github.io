@@ -307,6 +307,7 @@ pre code {
   margin-top: 0;
   position: relative;
 }
+
 /* ======= Projects Section ======= */
 .projects {
   padding: 80px 0 30px 0;
@@ -344,7 +345,9 @@ pre code {
   font-size: 18px;
 }
 .projects-details {
+  margin: 0 auto;
   padding-bottom: 60px;
+  max-width: 400px;
 }
 .projects-details img {
   border: 1px solid #074f66;
@@ -690,6 +693,9 @@ pre code {
   .header .main-nav .navbar-collapse {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .btn-resume {
+    display: none;
   }
   .heading .btns .btn {
     margin-right: 0;
