@@ -136,6 +136,7 @@ pre code {
   color: #fff; /* Color #4 */
   position: fixed;
   width: 100%;
+  padding-bottom: 5px;
 }
 .header.navbar-fixed-top {
   background: #fff; /* Color #4 */
@@ -192,6 +193,7 @@ pre code {
   color: #17baef; /* Color #1 */
   color: #fff; /* Plain white better if there's a background color */
   background: #074f66;
+  border-radius: 4px;
 }
 .header .main-nav .nav .nav-item a {
   color: #0a7396; /* Color #1D */

@@ -1,361 +1,870 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="content" />
     <title>Robert Spears - Developer</title>
-
-    <!-- HOLDING....TO BE DELETED ONCE CONFIRMED NOT USING -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
-
-    <!-- Styles / CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/prism.css" />
-    <link id="theme-style" rel="stylesheet" href="css/style.css">
+    <!-- <base href="/" /> -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style2.css" rel="stylesheet" />
+    <!-- <link href="css/open-iconic-bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"  rel="stylesheet"/>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
-    <!-- Font for typewriting KEEP-->
-    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
-
-    <!-- Linking fonts / some only temporarily while I decide which to keep -->
-    <link href="https://fonts.googleapis.com/css?family=Aldrich|Orbitron|Seymour+One" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Bahiana|Bree+Serif|Denk+One|Emblema+One|Fjalla+One|Hammersmith+One|Holtwood+One+SC|Lobster|Luckiest+Guy|Macondo+Swash+Caps|Nova+Flat|Orbitron|Play:700|Playfair+Display+SC:700,900|Prompt:700,800,900|Righteous|Risque|Rum+Raisin|Shrikhand|Stalinist+One|Teko:400,700" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <script src="js/modernizr.js"></script>
   </head>
-  <body data-spy="scroll">
-    <!-- ******HEADER****** -->
-    <header id="header" class="header">
-      <div class="container">
-        <h1 class="logo pull-left">
-          <a class="scrollto" href="#heading">
-            <span class="logo-title">RobertSpears</span>
-          </a>
-        </h1>
-        <nav id="main-nav" class="main-nav navbar-right" role="navigation">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="navbar-collapse collapse" id="navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active nav-item sr-only"><a class="scrollto" href="#heading">Home</a></li>
-              <li class="nav-item"><a class="scrollto" href="#projects">Projects</a></li>
-              <li class="nav-item"><a class="scrollto" href="#skills">Skills</a></li>
-              <li class="nav-item"><a class="scrollto" href="#work">Experience</a></li>
-              <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
-            </ul>
-            <form class="navbar-form navbar-right">
-              <a href="https://drive.google.com/file/d/0B3i9YBE-XJTCdGZudkJ6dENMdkk/view" target="_blank" class="btn btn-cta-primary btn-resume">R&eacute;sum&eacute;</a>
-            </form>
-          </div>
-        </nav>
-      </div>
-    </header>
 
-    <!-- ****** HEADING ****** -->
-    <section id="heading" class="heading section offset-header">
-      <div class="container text-center">
-        <h2 class="title">Robert<span class="highlight">&#8203;Spears</span></h2>
-        <p class="intro" id="position-seeking"></p>
-        <div class="btns">
-          <a class="btn btn-cta-secondary" href="https://drive.google.com/file/d/0B3i9YBE-XJTCdGZudkJ6dENMdkk/view" target="_blank">View Resume</a>
-          <a class="btn btn-cta-primary scrollto" href="#contact">About Me</a>
+<body>
+<div>
+
+<nav class="navbar navbar-expand-md navbar-light pt-0 pb-0">
+    <div class="container d-flex flex-column">
+        <div class="row align-items-center pt-md-2 pb-md-2">
+            <div class="col-4 d-md-none align-self-center">
+                <a class="navbar-toggler border-0 pl-0 pr-1" href="#" type="button" data-toggle="collapse" data-target="#hamburgerToggle" aria-controls="hamburgerToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu" title="magnifying glass" aria-hidden="true"></span>
+                </a>
+                <a class="navbar-toggler pl-2 pr-0 border border-secondary border-top-0 border-bottom-0 border-right-0" type="button" href="#" data-toggle="collapse" data-target="#navbarSearchToggler" aria-controls="navbarSearchToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-magnifying-glass" title="magnifying glass" aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="col-4 col-md-2 align-self-center order-md-1">
+                <a class="" href="#">
+                    <img class="img-fluid mt-md-3 mb-md-3 mt-2 mb-2" src="https://image.fisheriessupply.com/site/fisheries-logo-tag-blue.png" alt="Fisheries Blue Logo with Tagline" />
+                </a>
+            </div>
+            <div class="col-12 col-md-6 order-12 order-md-2">
+                <div class="collapse navbar-collapse" id="navbarSearchToggler">
+
+                        <search-bar id="search-bar" class="w-100"><html><head><script>(function(){function init(e,t){waitUntilReady((t||window).prebootData={opts:e,listening:!0,apps:[],listeners:[]})}function waitUntilReady(e,t){((t||window).document||{}).body?start(e):setTimeout(function(){waitUntilReady(e)},10)}function start(e,t){var o=t||window;if(!o.prebootStarted){o.prebootStarted=!0;var r=o.document||{},n=(e.opts||{}).eventSelectors||[];e.overlay=createOverlay(r),getAppRoots(r,e.opts).forEach(function(t){var o={root:t,events:[]};e.apps.push(o),n.forEach(function(t){return handleEvents(e,o,t)})})}}function createOverlay(e){var t=e.createElement("div");return t.setAttribute("id","prebootOverlay"),t.setAttribute("style","display:none;position:absolute;left:0;top:0;width:100%;height:100%;z-index:999999;background:black;opacity:.3"),e.body.appendChild(t),t}function getAppRoots(e,t){var o=[];return t.appRoot&&t.appRoot.length&&[].concat(t.appRoot).forEach(function(e){return o.push({serverSelector:e})}),o.forEach(function(o){o.serverNode=e.querySelector(o.serverSelector),o.clientSelector=o.clientSelector||o.serverSelector,o.clientSelector!==o.serverSelector?o.clientNode=e.querySelector(o.clientSelector):t.buffer?o.clientNode=createBuffer(o):o.clientNode=o.serverNode,o.serverNode||console.log("No server node found for selector: "+o.serverSelector)}),o}function handleEvents(e,t,o){var r=t.root.serverNode;if(r){var n=r.querySelectorAll(o.selector);if(n)for(var i=0,a=n;i<a.length;i++)!function(r){o.events.forEach(function(n){var i=createListenHandler(e,o,t,r);r.addEventListener(n,i),e.listeners.push({node:r,eventName:n,handler:i})})}(a[i])}}function createListenHandler(e,t,o,r){var n=["keyup","keydown","focusin","mouseup","mousedown"],i=["INPUT","TEXTAREA"];return function(a){var c=o.root,l=a.type;if(r&&l){var s=t.keyCodes;if(!s||!s.length||s.filter(function(e){return a.which===e}).length){t.preventDefault&&a.preventDefault(),t.action&&t.action(r,a);var d=getNodeKeyForPreboot({root:c,node:r});if(n.indexOf(l)>=0&&i.indexOf(r.tagName)>=0?e.activeNode={root:c,node:r,nodeKey:d,selection:getSelection(r)}:"change"!==l&&"focusout"!==l&&(e.activeNode=null),t.freeze){var u=e.overlay;u.style.display="block",setTimeout(function(){u.style.display="none"},1e4)}t.noReplay||o.events.push({node:r,nodeKey:d,event:a,name:l})}}}}function getSelection(e){var t=(e=e||{}).value||"",o={start:t.length,end:t.length,direction:"forward"};try{(e.selectionStart||0===e.selectionStart)&&(o.start=e.selectionStart,o.end=e.selectionEnd,o.direction=e.selectionDirection)}catch(e){}return o}function createBuffer(e){var t=e.serverNode;if(!t||!t.parentNode||"html"===e.serverSelector||"body"===e.serverSelector)return t;var o=t.cloneNode(!1);return o&&(o.style.display="none",t.parentNode.insertBefore(o,t)),o}function getNodeKeyForPreboot(e){for(var t=[],o=e.root,r=e.node,n=r;n&&n!==o.serverNode&&n!==o.clientNode;)t.push(n),n=n.parentNode;n&&t.push(n);for(var i=(r.nodeName||"unknown")+"_"+o.serverSelector,a=t.length-1;a>=0;a--)if((n=t[a]).childNodes&&a>0)for(var c=0;c<n.childNodes.length;c++)if(n.childNodes[c]===t[a-1]){i+="_s"+(c+1);break}return i}init({"buffer":true,"minify":true,"eventSelectors":[{"selector":"input,textarea","events":["keypress","keyup","keydown","input","change"]},{"selector":"select,option","events":["change"]},{"selector":"input","events":["keyup"],"preventDefault":true,"keyCodes":[13],"freeze":true},{"selector":"form","events":["submit"],"preventDefault":true,"freeze":true},{"selector":"input,textarea","events":["focusin","focusout","mousedown","mouseup"],"noReplay":true},{"selector":"button","events":["click"],"preventDefault":true,"freeze":true}],"appRoot":"search-bar"})})()</script><style ng-transition="search-bar"></style></head><body><search-bar ng-version="4.3.2"><autosuggest><div>
+    <autosuggest-searchbox _nghost-c0=""><div _ngcontent-c0="" class="input-group">
+    <input _ngcontent-c0="" aria-label="Search by keyword or part number..." autocapitalize="off" autocomplete="off" autocorrect="off" ngClass="form-control position-relative searchBox" placeholder="Search by keyword or part number..." spellcheck="false" tabindex="1" type="text" class="form-control position-relative searchBox" ng-reflect-ng-class="form-control position-relative">
+
+    <input _ngcontent-c0="" autocapitalize="off" autocomplete="off" autocorrect="off" ngClass="form-control position-absolute ghost" spellcheck="false" type="text" class="form-control position-absolute ghost" ng-reflect-ng-class="form-control position-absolute" value="">
+
+    <span _ngcontent-c0="" class="input-group-btn">
+        <button _ngcontent-c0="" class="btn btn-primary" type="button">Go!</button>
+    </span>
+</div></autosuggest-searchbox>
+</div>
+<div>
+    <autosuggest-results _nghost-c1=""><div _ngcontent-c1="" class="results">
+    <div _ngcontent-c1="" class="result-items-container">
+        <autosuggest-result-items _ngcontent-c1=""><ul>
+    <!--bindings={}-->
+</ul></autosuggest-result-items>
+    </div>
+    <div _ngcontent-c1="" class="highlights-container">
+        <autosuggest-highlight _ngcontent-c1=""><!--bindings={}--></autosuggest-highlight>
+    </div>
+</div></autosuggest-results>
+</div></autosuggest></search-bar></body></html></search-bar>
+
+                </div>
+            </div>
+            <div class="col-md border border-bottom-0 border-left-0 border-top-0 small d-none d-md-flex order-md-3 h-75">
+                <span class="align-self-center">Customer Service</span>
+            </div>
+            <div class="col-md border border-bottom-0 border-left-0 border-top-0 small d-none d-md-flex order-md-4 h-75">
+                <span class="oi oi-person">&nbsp;&nbsp;</span>
+                <span class="align-self-center">Hello, Kyle</span>
+            </div>
+
+            <div class="col order-md-5 text-right text-md-left">
+                <a href="#" class="text-dark">
+                    <span class="oi oi-cart"></span>
+                    <span class="d-none d-md-inline-block small"> 2 items</span>
+                </a>
+            </div>
+        </div>
+
+
+            <div class="row border border-secondary w-100 border-bottom-0 border-left-0 border-right-0 d-none d-md-block"></div>
+
+
+<div class="row w-100 pt-md-2 pb-md-2">
+    <div class="collapse navbar-collapse" id="hamburgerToggle">
+        <div class="nav nav-fill w-100">
+
+          <!--        ~~~~  FSHeaderFlyoutBucketMenu  ~~~~           -->
+
+          <div class="nav-item dropdown open">
+              <a class="nav-link text-primary font-weight-bold dropdown-toggle" href="#" role="button" id="bucketMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Departments
+              </a>
+
+              <div class="dropdown-menu megaMenu" aria-labelledby="bucketMenuLink" role="menu">
+
+                  <!-- <div class="bucketWrapper "> -->
+
+    									<ul class="dropdownContent list-unstyled">
+    											<li class="bucket hasChildren">
+                              <a>Electrical &amp; Lighting</a>
+    													<ul class="secondaryDropdown isHidden list-unstyled pt-3">
+    															<li class="hasChildren">
+    																	<a class="d-inline-block text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Lighting</a>
+    																	<ul class="isHidden list-unstyled">
+    																			<li><a href="" class="bucketItem">LED Lighting</a></li>
+    																			<li><a href="" class="bucketItem">Navigation Lights</a></li>
+    																			<li><a href="" class="bucketItem">Cabin Lights</a></li>
+    																			<li><a href="" class="bucketItem">Courtesty Lights</a></li>
+    																			<li><a href="" class="bucketItem">Spotlights</a></li>
+    																			<li><a href="" class="bucketItem">Flood & Spreader Lights</a></li>
+    																			<li><a href="" class="bucketItem">Underwater Lights</a></li>
+    																			<li><a href="" class="bucketItem">Docking Lights</a></li>
+    																			<li><a href="" class="bucketItem">Flashlights</a></li>
+    																			<li><a href="" class="bucketItem">Light Bulbs</a></li>
+    																			<li><a href="" class="bucketItem">Indicator Lights</a></li>
+    																			<li><a href="" class="bucketItem">Trailer Lights</a></li>
+    																			<li><a href="" class="bucketItem">Engine Room & Utility Lights</a></li>
+    																			<li><a href="" class="bucketItem">Work Lights</a></li>
+    																	</ul>
+    															</li>
+
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Electrical</a>
+                                      <ul class="isHidden list-unstyled">
+                                          <li><a href="" class="bucketItem">Electrical Panels & Accessories</a></li>
+                                          <li><a href="" class="bucketItem">Marine Battery Chargers & Inverters</a></li>
+                                          <li><a href="" class="bucketItem">Marine Fuel Cell Generators</a></li>
+                                          <li><a href="" class="bucketItem">Marine Batteries & Accessories</a></li>
+                                          <li><a href="" class="bucketItem">Marine Wire & Accessories</a></li>
+                                          <li><a href="" class="bucketItem">Power Supplies & Converters</a></li>
+                                          <li><a href="" class="bucketItem">12 Volt Plugs and Sockets</a></li>
+                                          <li><a href="" class="bucketItem">Solar Power</a></li>
+                                          <li><a href="" class="bucketItem">Electrical Tape & Tools</a></li>
+                                          <li><a href="" class="bucketItem">Electrical Switches</a></li>
+                                          <li><a href="" class="bucketItem">Fuses</a></li>
+                                      </ul>
+                                  </li>
+    													</ul>
+    											</li>
+
+    											<li class="bucket hasChildren">
+                              <a>Anchor &amp; Dock</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+                                          <li><a href="" class="bucketItem">Anchor Chains &amp; Accessories</a></li>
+                                          <li><a href="" class="bucketItem">Anchor Windlasses &amp; Winches</a></li>
+                                          <li><a href="" class="bucketItem">Anchoring Accessories</a></li>
+                                          <li><a href="" class="bucketItem">Anchors</a></li>
+                                          <li><a href="" class="bucketItem">Boat Fenders &amp; Bumperes</a></li>
+                                          <li><a href="" class="bucketItem">Boat Hooks</a></li>
+                                          <li><a href="" class="bucketItem">Boat Stabilizers</a></li>
+                                          <li><a href="" class="bucketItem">Bow &amp; Anchor Rollers</a></li>
+                                          <li><a href="" class="bucketItem">Bow &amp; Stern Thrusters</a></li>
+                                          <li><a href="" class="bucketItem">Dock Accessories</a></li>
+                                          <li><a href="" class="bucketItem">Fender Coveres &amp; Accessories</a></li>
+                                          <li><a href="" class="bucketItem">Marker Buoys</a></li>
+                                          <li><a href="" class="bucketItem">Mooring Buoys</a></li>
+                                          <li><a href="" class="bucketItem">Rub Rail</a></li>
+                                          <li><a href="" class="bucketItem">Windlass Accessories</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li class="bucket hasChildren">
+                              <a>Maintenance, Resins, &amp; Cleaning Supplies</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Pumps &amp; Plumbing</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Engine &amp; Steering</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Galley &amp; Cabin</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Hardware</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Paint</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Sailboat</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li class="bucket hasChildren">
+                              <a>Clothing</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Safety</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                          <li class="bucket hasChildren">
+                              <a>Electronics &amp; Navigation</a>
+                              <ul class="secondaryDropdown isHidden list-unstyled pt-3">
+                                  <li class="hasChildren">
+                                      <a class="text-uppercase text-dark border border-secondary border-top-0 border-right-0 border-left-0">Subheading</a>
+                                      <ul class="isHidden list-unstyled">
+
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+    									</ul>
+                  <!-- </div> -->
+              </div>
+          </div>
+
+
+<div class="nav-item dropdown open">
+    <a class="nav-link text-primary font-weight-bold dropdown-toggle" href="#" role="button" id="bucketMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Brands
+    </a>
+
+    <div class="dropdown-menu megaMenu" aria-labelledby="bucketMenuLink" role="menu">
+
+        <div class="d-flex flex-column">
+            <div class="bucketWrapper row">
+
+                <div class="col cursorDefault">#</div>
+                <div class="col cursorDefault">A</div>
+                <div class="col cursorDefault">B</div>
+                <div class="col cursorDefault">C</div>
+                <div class="col cursorDefault">D</div>
+                <div class="col cursorDefault">E</div>
+                <div class="col cursorDefault">F</div>
+                <div class="col cursorDefault">G</div>
+                <div class="col cursorDefault">H</div>
+                <div class="col cursorDefault">I</div>
+                <div class="col cursorDefault">J</div>
+                <div class="col cursorDefault">K</div>
+                <div class="col cursorDefault">L</div>
+                <div class="col cursorDefault">M</div>
+                <div class="col cursorDefault">N</div>
+                <div class="col cursorDefault">O</div>
+                <div class="col cursorDefault">P</div>
+                <div class="col cursorDefault">Q</div>
+                <div class="col cursorDefault">R</div>
+                <div class="col cursorDefault">S</div>
+                <div class="col cursorDefault">T</div>
+                <div class="col cursorDefault">U</div>
+                <div class="col cursorDefault">V</div>
+                <div class="col cursorDefault">W</div>
+                <div class="col cursorDefault">X</div>
+                <div class="col cursorDefault">Y</div>
+                <div class="col cursorDefault">Z</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="nav-item">
+    <a class="nav-link text-primary font-weight-bold" href="#">Sale</a>
+</div>
+
+<div class="nav-item">
+    <a class="nav-link text-primary font-weight-bold" href="#">Knowledge Base</a>
+</div>
+
+<div class="nav-item">
+    <a class="nav-link text-primary font-weight-bold" href="#">For Pros</a>
+</div>
+        </div>
+    </div>
+</div>
+    </div>
+</nav>
+
+
+
+
+
+<div class="container-fluid bg-primary text-light d-none d-md-block">
+    <div class="d-flex justify-content-center pt-3 pb-3">
+        <div class="d-flex align-self-center">
+            <span class="font-weight-light display-4">Free Shipping on orders over $99. <a href="http://www.google.com" class="text-light"><u>Details</u></a>                                            </span>
+        </div>
+    </div>
+</div>
+
+<!--     ~~~      fsBannerContainer          ~~~ -->
+
+    <div class="bg-light fsBannerContainer">
+        <div class="container">
+
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div fst="Winch Sale" fsh fsc class="carousel-item active">
+                        <img class="d-block w-100" src="https://image.fisheriessupply.com/f_jpg/f_auto/v1/static-images/banner1">
+                        <div class="bannerTextLeft position-md-absolute pt-2 pt-md-0 pl-0 pl-md-4 pb-3">
+                            <h1 class="display-1">ANDERSON WINCH</h1>
+                            <h1 class="display-1">SALE</h1>
+                            <p>These Winches totally winch at up to 20% off!</p>
+                            <div>
+                                <a role="button" class="btn btn-primary" href="#">Button</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div fst="Led Lighting" fsh fsc class="carousel-item">
+                        <img class="d-block w-100" src="https://image.fisheriessupply.com/f_jpg/f_auto/v1/static-images/banner2">
+                        <div class="bannerTextLeft position-md-absolute pt-2 pt-md-0 pl-0 pl-md-4 pb-3" style="">
+                            <h1 class="display-1">NEW</h1>
+                            <h1 class="display-1">LED LIGHTING</h1>
+                            <h1 class="display-1">FROM SCANDVIK</h1>
+                            <p>Introductory Sale - Up to 20% off</p>
+                            <div>
+                              <a role="button" class="btn btn-primary" href="#">Shop Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div fst="Left Image" fsh fsc class="carousel-item">
+                        <img class="d-block w-100" src="http://via.placeholder.com/720x274">
+                        <div class="bannerTextRight position-md-absolute pt-2 pt-md-0 pr-0 pr-md-4 pb-3" style="">
+                            <h1 class="display-1">NEW</h1>
+                            <h1 class="display-1">LEFT IMAGE</h1>
+                            <h1 class="display-1">TEXT RIGHT</h1>
+                            <p>Opening Sale - Up to 20% off</p>
+                            <div>
+                              <a role="button" class="btn btn-primary" href="#">Button</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container d-none d-md-block">
+                      <div class="carousel-indicators row p-0 m-0 position-absolute">
+                          <div data-target="#carouselIndicators" data-slide-to="0" class="col carouselIndication active"></div>
+                          <div data-target="#carouselIndicators" data-slide-to="1" class="col carouselIndication"></div>
+                          <div data-target="#carouselIndicators" data-slide-to="2" class="col carouselIndication"></div>
+                      </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev d-md-flex" href="#carouselIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="width:5em; height:5em;"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next d-md-flex" href="#carouselIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="width:5em; height:5em;"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container d-none d-md-block">
+        <div class="row align-items-center text-center">
+              <div class="col">
+                    <a href="" data-target="#carouselIndicators" fst="link-Winch Sale" fsc data-slide-to="0" class="carouselIndicators active-deactive">
+                        <div class="fsCarouselTitleContainer text-dark">
+                            Winch Sale
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="" data-target="#carouselIndicators" fst="link-Led Lighting" fsc data-slide-to="1" class="carouselIndicators">
+                        <div class="fsCarouselTitleContainer text-dark">
+                            Led Lighting
+                        </div>
+                    </a>
+              </div>
+              <div class="col">
+                  <a href="" data-target="#carouselIndicators" fst="link-Left Image" fsc data-slide-to="2" class="carouselIndicators">
+                      <div class="fsCarouselTitleContainer text-dark">
+                          Left Image
+                      </div>
+                  </a>
+            </div>
+        </div>
+    </div>
+<!--     ~~~    fsMiniBannerContainer          ~~~ -->
+<div class="container my-5">
+    <div class="row justify-content-between">
+            <div class="col-md-6 col-12 p-2 fsMiniBannerContainer">
+                <div class="fsMiniBannerLeft bg-primary text-white float-left position-relative">
+                      <div class="fsMiniBannerText d-flex justify-content-center flex-column">
+                        <div class="text-center px-4"><h3 class="font-weight-light">Device Mounts</h3></div>
+                        <div class="text-center px-4"><h1 class="font-weight-light">20% off</h1></div>
+                        <div class="text-center px-4"><h4 class="font-weight-light">Et sit portitor id quam, commodo nam feugiat ornare quam sit vitae, augue ut et.</h4></div>
+                      </div>
+                    <a class="text-white position-absolute shopNow" href="#">Shop Now<span class="chevron right pl-2"></span></a>
+                </div>
+                <img src="https://gallery.mailchimp.com/d2655484a4/images/000e4b7d-e19b-4406-b5c9-3752f3795f94.jpg" class="img-fluid bg-primary"/>
+
+            </div>
+            <div class="col-md-6 col-12 p-2 fsMiniBannerContainer">
+                <div class="fsMiniBannerLeft bg-secondary text-dark float-left position-relative">
+                    <div class="fsMiniBannerText d-flex justify-content-center flex-column">
+                        <div class="text-center px-4"><h3 class="font-weight-light">Buy One,</h3></div>
+                        <div class="text-center px-4"><h1 class="font-weight-light">GET ONE FREE</h1></div>
+                        <div class="text-center px-4"><h4 class="font-weight-light">Through October 1st.</h4></div>
+                    </div>
+                    <a class="text-dark position-absolute shopNow" href="#">Shop Now<span class="chevron right pl-2"></span></a>
+                </div>
+                <img src="https://gallery.mailchimp.com/d2655484a4/images/16fabc61-bf82-44b7-8685-b5e9ba47af08.jpg" class="img-fluid bg-secondary"/>
+            </div>
+    </div>
+</div>
+
+<!--     ~~~      fsClickableImageContainer          ~~~ -->
+<div class="my-5 py-3 container">
+        <h2 class="h3 text-dark pb-4 headingSeperator d-flex flex-row">Top Categories</h2>
+
+    <div class="row">
+            <div class="col-md-4 col-6 pb-1 pt-1 my-3">
+                <a href="#" class="nounderline">
+                    <img class="img-fluid imageGrid-3" src="http://static2.businessinsider.com/image/5522f5306bb3f7801500ec0a-1200-632/silicon_valley_episode_5%20arrow.jpg" />
+                    <h4 class="font-weight-normal text-dark pt-3 pb-2 text-uppercase d-flex flex-row justify-content-end align-items-center">
+                        <span>Scrum Board</span>
+                        <span class="chevron right pl-2 display-4 text-dark"></span>
+                    </h4>
+                </a>
+            </div>
+            <div class="col-md-4 col-6 pb-1 pt-1 my-3">
+                <a href="https://www.google.com/" class="nounderline">
+                    <img class="img-fluid imageGrid-3" src="https://image.fisheriessupply.com/f_jpg/f_auto/v1/static-images/click_2" alt="anchor and dock alt" />
+                    <h4 class="font-weight-normal text-dark pt-3 pb-2 text-uppercase d-flex flex-row justify-content-end align-items-center">
+                        <span>Anchor &amp; Dock</span>
+                        <span class="chevron right pl-2 display-4 text-dark"></span>
+                    </h4>
+                </a>
+            </div>
+            <div class="col-md-4 col-6 pb-1 pt-1 my-3">
+                <a href="https://www.google.com/" class="nounderline">
+                    <img class="img-fluid imageGrid-3" src="http://image.fisheriessupply.com/f_jpg/f_auto/v1/static-images/click_1" alt="guy painting boat" />
+                    <h4 class="font-weight-normal text-dark pt-3 pb-2 text-uppercase d-flex flex-row justify-content-end align-items-center">
+                        <span>Boat paint</span>
+                        <span class="chevron right pl-2 display-4 text-dark"></span>
+                    </h4>
+                </a>
+            </div>
+            <div class="col-md-4 col-6 pb-1 pt-1 my-3">
+                <a href="https://www.fisheriessupply.com" class="nounderline">
+                    <img class="img-fluid imageGrid-3" src="https://image.fisheriessupply.com/f_jpg/f_auto/v1/static-images/click_3" alt="fender alt tag" />
+                    <h4 class="font-weight-normal text-dark pt-3 pb-2 text-uppercase d-flex flex-row justify-content-end align-items-center">
+                        <span>Fenders</span>
+                        <span class="chevron right pl-2 display-4 text-dark"></span>
+                    </h4>
+                </a>
+            </div>
+    </div>
+</div>
+
+<!--     ~~~      FSResultContainer          ~~~ -->
+<div class="my-5 container">
+        <h2 class="h3 text-dark pb-4 headingSeperator d-flex flex-row">Deal Zone</h2>
+
+    <div class="row">
+            <div class="col-md-3 col-6 pt-5 pb-5">
+                <a class="nounderline" href="baldwin-filters-bld-bf588">
+                    <img class="img-fluid" src="https://image.fisheriessupply.com/f_jpg/f_auto/t_Legacy-250x250/v1/static-images/07481-harken-har-150-it1-tif" alt="Harken 150" />
+                    <p class="extraSmall text-uppercase text-secondary pt-2 pb-0 mb-0">brand</p>
+                    <p class="h5 text-dark">Harken 150 Kyle</p>
+                    <p class="h5 text-dark">Sale <span class="h3"> $199.51 </span><s class="h5 text-secondary"> $234.56</s></p>
+                    <p>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 pt-5 pb-5">
+                <a class="nounderline" href="johnson-pump-aqua-jet-wash-down-3-5-gpm">
+                    <img class="img-fluid" src="http://image.fisheriessupply.com/t_Legacy-250x250/v1/static-images/02218-beckson-bec-fph-1-14-4-ppm-tif" alt="hose" />
+                    <p class="extraSmall text-uppercase text-secondary pt-2 pb-0 mb-0">brand</p>
+                    <p class="h5 text-dark">Really Long Product Name That is Really Long so we can see how it renders</p>
+                    <p class="h5 text-dark">Sale <span class="h3"> $199.51 </span><s class="h5 text-secondary"> $234.56</s></p>
+                    <p>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 pt-5 pb-5">
+                <a class="nounderline" href="fisheries-brand-supply-keyfloat-discontinued">
+                    <img class="img-fluid" src="http://image.fisheriessupply.com/t_Legacy-250x250/v1/static-images/09003-perko-pko-0159dp8chr-8in-chr-fog-bell-ppm-tif" alt="Bell alt" />
+                    <p class="extraSmall text-uppercase text-secondary pt-2 pb-0 mb-0">brand</p>
+                    <p class="h5 text-dark">8 inch Chrome Fog Bell</p>
+                    <p class="h5 text-dark">Sale <span class="h3"> $199.51 </span><s class="h5 text-secondary"> $234.56</s></p>
+                    <p>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 pt-5 pb-5">
+                <a class="nounderline" href="west-system-final-fairing-and-finishing-discontinued">
+                    <img class="img-fluid" src="http://image.fisheriessupply.com/t_Legacy-250x250/v1/static-images/1000889-yeti-tundra-seafoam-yet-45-it1-tif" alt="green cooler" />
+                    <p class="extraSmall text-uppercase text-secondary pt-2 pb-0 mb-0">brand</p>
+                    <p class="h5 text-dark">Seafoam Green Tundra 45</p>
+                    <p class="h5 text-dark">Sale <span class="h3"> $199.51 </span><s class="h5 text-secondary"> $234.56</s></p>
+                    <p>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 pt-5 pb-5">
+                <a class="nounderline" href="alexseal-super-fair-212-fairing-compound-thick-base-only-p2123">
+                    <img class="img-fluid" src="http://image.fisheriessupply.com/t_Legacy-250x250/v1/static-images/1001594-mastervolt-12-80-mls-series-mvt-65010006-it1-tif" alt="mvt" />
+                    <p class="extraSmall text-uppercase text-secondary pt-2 pb-0 mb-0">brand</p>
+                    <p class="h5 text-dark">Mastervolt Lithium Ion Battery</p>
+                    <p class="h5 text-dark">Sale <span class="h3"> $199.51 </span><s class="h5 text-secondary"> $234.56</s></p>
+                    <p>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                      <span class="oi oi-star text-warning"></span>
+                    </p>
+                </a>
+            </div>
+    </div>
+</div>
+
+<div class="customerServiceSection container-fluid bg-light pt-5">
+  <!--     ~~~      fsContactUsBand (added here)          ~~~ -->
+  <div class="container pt-3 px-0 d-none d-md-block">
+      <div class="fsCustomerService">
+        <div class="d-flex flex-column align-items-center">
+            <h1 class="text-center font-weight-light w-50 display-1">Customer Service Headline Goes Here</h1>
+            <p class="text-center font-weight-light w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div class="social-media header-links">
-        <!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/robertspears1" data-format="click" data-related="false" data-text="Robert Spears"></script> -->
-        <a href="https://www.linkedin.com/in/robertspears1/" target="_blank">View LinkedIn</a>
-        <a href="https://github.com/Robert1GA" target="_blank">View Github</a>
-      </div>
-    </section>
 
-    <!-- ****** PROJECTS ****** -->
-    <section id="projects" class="projects section">
-      <div class="container text-center">
-        <h2 class="title text-center">My Projects</h2>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xm-12 col-sm-6 col-md-6">
-              <div class="projects-details">
-                <a href="http://robertspea.rs/ProjectOneBlackJack/" target="_blank">
-                  <img src="img/BlackjackProj.jpeg" />
-                </a>
-                <div>
-                  <h4>Blackjack</h4>
-                  <p>
-                    A web-version of the classic card game which also allows players to receive hints on whether they should hit, stay, split, etc.  Made with vanilla Javascript and JQuery.
-                  </p>
-                  <a href="http://robertspea.rs/ProjectOneBlackJack/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> View Project</a></p>
-                  <a href="https://github.com/Robert1GA/ProjectOneBlackJack" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></p>
+      <div class="fsCustomerServicePhotos position-relative d-flex justify-content-center my-3">
+        <div class="fsCustomerServicePhotosContainer d-inline-block mx-3">
+          <div>
+            <img src="img/photo.jpeg" />
+          </div>
+          <div>
+            <h4 class="text-center">James</h4>
+          </div>
+        </div>
+        <div class="fsCustomerServicePhotosContainer d-inline-block mx-3">
+          <div>
+            <img src="img/photo.jpeg" />
+          </div>
+          <div>
+            <h4 class="text-center">James</h4>
+          </div>
+        </div>
+        <div class="fsCustomerServicePhotosContainer d-inline-block mx-3">
+          <div>
+            <img src="img/photo.jpeg" />
+          </div>
+          <div>
+            <h4 class="text-center">James</h4>
+          </div>
+        </div>
+        <div class="fsCustomerServicePhotosContainer d-inline-block mx-3">
+          <div>
+            <img src="img/photo.jpeg" />
+          </div>
+          <div>
+            <h4 class="text-center">James</h4>
+          </div>
+        </div>
+        <div class="fsCustomerServicePhotosContainer d-inline-block mx-3">
+          <div>
+            <img src="img/photo.jpeg" />
+          </div>
+          <div>
+            <h4 class="text-center">James</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!--     ~~~     fsContactUsBand          ~~~ -->
+    <div class="container-fluid bg-light d-md-flex text-light justify-content-center pt-3 pb-4">
+        <div fst='contact-us-band' fsv class="d-md-flex pt-4 border-sm-none border border-dark border-bottom-0 border-left-0 border-right-0">
+            <div class="align-self-center text-center">
+                <p class="pb-md-0 pb-4 mb-0 px-4 text-dark font-italic small">Can&#x27;t find what you&#x27;re looking for? Let us help.</p>
+            </div>
+
+            <div class="d-md-inline-flex d-flex">
+                <div class="border border-dark border-right-0 border-top-0 border-bottom-0 align-self-center">
+                    <a class="pb-0 mb-0 px-3 px-md-4 text-dark display-4" fst="" fsc href="">800-426-6930</a>
+                </div>
+                <div class="border border-dark border-right-0 border-top-0 border-bottom-0 align-self-center">
+                    <a class="pb-0 mb-0 px-3 px-md-4 text-dark display-4" fst="" fsc href="">
+                        <span class="oi oi-envelope-closed"></span>
+                        Email
+                    </a>
+                </div>
+                <div class="border border-dark border-right-0 border-top-0 border-bottom-0 align-self-center">
+                    <a class="pb-0 mb-0 px-3 px-md-4 text-dark display-4" fst="" fsc href="">
+                        <span class="oi oi-comment-square"></span>
+                        Live Chat
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<!--             ~~~~~~~~~~~~ FSLinkListContainerWithCallout ~~~~~~~~     -->
+<div class="flagshipBand bg-primary text-white text-center font-weight-light py-5 mb-1 mb-md-0">
+    <h2 class="display-1 mb-4">Visit our Seattle Flagship Store</h2>
+    <div class="d-md-flex justify-content-center">
+      <div class="px-4 py-3">
+          <p class="pb-0 mb-1">Open 9AM - 9PM Today</p>
+          <p class="pb-0 mb-0"><a class="text-white" href="#"><u>All Store Hours</u></a></p>
+      </div>
+      <div class="border border-white border-right-0 border-top-0 border-bottom-0 pl-4 pr-4 py-3">
+          <p class="pb-0 mb-1">1900 N Northlake Way, Seattle, WA 98103</p>
+          <p class="pb-0 mb-0"><a class="text-white" href="#">Directions</a></p>
+      </div>
+      <div class="border border-white border-right-0 border-top-0 border-bottom-0 pl-4 pr-4 py-3">
+          <p class="pb-0 mb-1">Will Call - Pickup Today!</p>
+          <p class="pb-0 mb-0 px-4"><a class="text-white" href="#">206-632-4462</a></p>
+      </div>
+    </div>
+</div>
+
+
+<!--             ~~~~~~~~~~~~ FSLinkListContainer[bottom] ~~~~~~~~     -->
+    <div class="container-fluid bg-light d-none d-md-flex justify-content-center">
+            <div class="align-self-center pb-4 pt-4">
+                <a href ="" class="pb-0 mb-0 mr-4 ml-4 text-dark small">KYLE KNOWLEDGE BASE</a>
+            </div>
+            <div class="align-self-center pb-4 pt-4">
+                <a href ="" class="pb-0 mb-0 mr-4 ml-4 text-dark small">SHIPPING</a>
+            </div>
+            <div class="align-self-center pb-4 pt-4">
+                <a href ="" class="pb-0 mb-0 mr-4 ml-4 text-dark small">RETURNS</a>
+            </div>
+            <div class="align-self-center pb-4 pt-4">
+                <a href ="" class="pb-0 mb-0 mr-4 ml-4 text-dark small">GIFT CARDS</a>
+            </div>
+    </div>
+
+    <!--             ~~~~~~~~~~~~ FSLinkListContainer[top] ~~~~~~~~     -->
+
+    <div class="container-fluid bg-light d-none d-md-block">
+        <div class="container pb-5 pt-5 px-0 border border-dark border-left-0 border-right-0">
+            <div class="row">
+                    <div class="col-3 small">
+                        <h5 class="text-uppercase mb-3">HELP</h5>
+                            <div class="my-2">
+                                <a href ="" class="">Track Shipment</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Worldwide Shipping</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Payment Options</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Unsubscribe from email</a>
+                            </div>
+                    </div>
+                    <div class="col-3 small">
+                        <h5 class="text-uppercase mb-3">CUSTOMER SERVICE</h5>
+                            <div class="my-2">
+                                <a href ="" class="">Contact Us</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Store Direction & Hours</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Shipping</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Returns</a>
+                            </div>
+                    </div>
+                    <div class="col-3 small">
+                        <h5 class="text-uppercase mb-3">ABOUT US</h5>
+                            <div class="my-2">
+                                <a href ="" class="">About Fisheries Supply</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Legal</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Privacy & Security</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Warranty</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Employment</a>
+                            </div>
+                    </div>
+                    <div class="col-3 small">
+                        <h5 class="text-uppercase mb-3">RESOURCES</h5>
+                            <div class="my-2">
+                                <a href ="" class="">Shop by Brand</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Manufacturer Directory</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Knowledge Base</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Site Map</a>
+                            </div>
+                            <div class="my-2">
+                                <a href ="" class="">Your Feedback</a>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!--              ~~~~~   ~~~~~~         -->
+    <div class="container-fluid bg-light font-weight-light">
+        <div class="container py-md-5 py-sm-2 px-0">
+            <div class="row d-flex justify-content-center text-center">
+
+              <div class="col-md-4 order-md-2 col-sm-12 border border-sm-none border-dark border-right-0 border-top-0 border-bottom-0 pt-4 pt-md-1 px-4 pb-4">
+                  <p class="text-uppercase small">Sign up for Fisheries Supply News & Special Offers</p>
+                  <div class="input-group">
+                    <input placeholder="Email address" type="text" class="form-control position-relative mx-3">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button">Sign up</button>
+                    </span>
+                  </div>
+              </div>
+
+              <div class="col-md-4 order-md-1 col-sm-12 border-sm-top-only border-dark mx-3 mx-md-0 pt-1 px-4 pt-4 pt-md-0 pb-4">
+                  <p class="text-uppercase small">Connect with us</p>
+                  <a href="#">
+                    <img src="img/if_facebook.svg" class="socialIcon" />
+                  </a>
+                  <a href="#">
+                    <img src="img/if_circle-twitter.svg" class="socialIcon" />
+                  </a>
+              </div>
+
+              <div class="col-md-4 col-sm-12 order-3 border border-sm-top-only border-dark border-right-0 border-top-0 border-bottom-0 m-sm-auto m-md-0 mx-3 pt-1 px-1 pt-4 pt-md-0 pb-4 w-md-25">
+                <div class="d-flex justify-content-center h-100">
+                  <img class="img-fluid w-sm-50 w-75 align-self-center" src="https://image.fisheriessupply.com/site/fisheries-logo-tag-blue.png" alt="Fisheries Blue Logo with Tagline" />
                 </div>
               </div>
             </div>
-            <div class="col-xm-12 col-sm-6 col-md-6">
-              <div class="projects-details">
-                <a href="https://chicago-crime-map.herokuapp.com/" target="_blank">
-                  <img src="img/ChicagoCrimeOverview.jpeg" />
-                </a>
-                <div>
-                  <h4>Chicago Crime Map</h4>
-                  <p>
-                    Uses the Chicago crime stats database to plot points on a map where certain crimes took place in the city.  Made with Javascript, JQuery, Node.js, and Google Maps API.
-                  </p>
-                  <a href="https://chicago-crime-map.herokuapp.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> View Project</a></p>
-                  <a href="https://github.com/Robert1GA/Crime_Data" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xm-12 col-sm-6 col-md-6">
-              <div class="projects-details">
-                <a href="http://eightbitchat.herokuapp.com/" target="_blank">
-                  <img id="eightbitgif" src="img/8BitChat.jpeg" />
-                </a>
-                <div>
-                  <h4>Eight Bit Chat</h4>
-                  <p>
-                    A collaborative project to create a virtual chat room where users can move their avatars around and chat with other connected users.  THe avatars are customizable.  We use vanilla Javascript, JQuery, Node.js, Mongo DB, canvas, and socket.io.
-                  </p>
-                  <a href="http://eightbitchat.herokuapp.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> View Project</a></p>
-                  <a href="https://github.com/tmrdr/8-bit-chat" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xm-12 col-sm-6 col-md-6">
-              <div class="projects-details">
-                <a href="http://robertspea.rs/hackathon-pet-dating/#/" target="_blank">
-                  <img src="img/PlentyCatsBrowse.jpeg" />
-                </a>
-                <div>
-                  <h4>Plenty of Cats</h4>
-                  <p>
-                    This is a silly take on a real dating website with a similar name.  Users are able to browse for similar-minded users.  Collaborative effort between myself and one other classmate we hacked together over a two-day period.  This was created using AngularJS and Node.js.
-                  </p>
-                  <a href="http://robertspea.rs/hackathon-pet-dating/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> View Project</a></p>
-                  <a href="https://github.com/Robert1GA/hackathon-pet-dating" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></p>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col-xm-12 col-sm-6 col-md-4">
-              <div class="projects-details">
-                <a href="http://doggywalking.herokuapp.com/" target="_blank">
-                  <img src="img/DoggyWalkingHome.jpeg" />
-                </a>
-                <div>
-                  <h4>Doggy Walking</h4>
-                  <p>
-                    Site for a professional dog-walker to have users block off time appointments for their dog to be walked.  Uses Node.js, Angular, and Lodash.
-                  </p>
-                  <a href="http://doggywalking.herokuapp.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> View Project</a></p>
-                  <a href="https://github.com/Robert1GA/DoggyWalking" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></p>
-                </div>
-              </div>
-            </div> -->
-          </div>
         </div>
+    </div>
+
+    <div class="container-fluid bg-primary">
+      <div class="text-center py-2">
+          <span class="text-white extraSmall">&copy; 2017 Fisheries Supply, Inc. 1900 N. Northlake Way, Seattle, WA 98103</span>
       </div>
-    </section>
-
-    <!-- ****** SKILLS ****** -->
-    <section id="skills" class="skills section">
-      <div class="container text-center">
-        <h2 class="title">Skills</h2>
-        <div class="row skills-row">
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/html5-original.svg" />
-            <h4>HTML</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/css3-original.svg" />
-            <h4>CSS</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/javascript-original.svg" />
-            <h4>Javascript</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/nodejs-original.svg" />
-            <h4>Node.js/Express</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/AngularJS-original.svg" />
-            <h4>AngularJS</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/python-original.svg" />
-            <h4>Python</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/mongodb-original.svg" />
-            <h4>MongoDB</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/postgresql-original.svg" />
-            <h4>PostgreSQL</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/ruby-original.svg" />
-            <h4>Ruby</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/rails-original-wordmark.svg" />
-            <h4>Rails</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/github-original.svg" />
-            <h4>Git/GitHub</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/react-original.svg" />
-            <h4>ReactJS<h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/django-original.svg" />
-            <h4>Django</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/sequelize-original.svg" />
-            <h4>Sequelize</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/jquery-plain-wordmark.svg" />
-            <h4>jQuery</h4>
-          </div>
-          <div class="col-xm-12 col-sm-6 col-md-3">
-            <img class="tech-icon" src="img/tech-icons/bootstrap-plain-wordmark.svg" />
-            <h4>Bootstrap</h4>
-          </div>
-        </div>
+    </div>
+    <div class="container-fluid bg-light">
+      <div class="text-center py-2">
+          <p class="text-dark extraSmall p-0 my-0 mx-auto w-sm-100 w-50">Prices, specifications, and images are subject to change without notice. Not responsible for typographic or illustrative errors. Manufacturer rebates, terms, conditions and expiration dates are subject to manufacturers printed forms.</p>
       </div>
-    </section>
+    </div>
 
-    <!-- ****** WORK ****** -->
-    <section id="work" class="work section">
-      <div class="container text-center">
-        <div class="work-inner">
-          <h2 class="title text-center">Work Experience</h2>
-          <div class="block">
-            <!-- <h3 class="sub-title text-center">Work Experience</h3> -->
-            <div class="code-block">
-              <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
 
-              <!-- Text needs to be outside indentation so
-              appears on page without horizontal scrolls -->
-              <pre><code class="language-markup">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery.menu-aim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="js/main2.js"></script>
+    <script src="js/carousel.js"></script>
 
-    &lttitle&gt Full Stack Web Developer &lt/title&gt
-    &ltcompany&gt General Assembly Seattle &lt/company&gt
-    &lttime-period&gt November 2016 - February 2017 &lt/time-period&gt
 
-    &ltdescription&gt
-    A 12-week full stack web development course with
-    480 hours of classroom instruction, 50-70 hours per week of work
-    and 4 projects.
-
-    Skills Learned: HTML/CSS, Javascript, jQuery, PostgreSQL, MongoDB,
-    Node/Express, Python, AngularJS, ReactJS, Bootstrap, APIs
-    &lt/description&gt
-
-    &lt!------------------------&gt
-
-    &lttitle&gt ITC Analyst &lt/title&gt
-    &ltcompany&gt Sheppard Robson &lt/company&gt
-    &lttime-period&gt March 2016 - September 2016 &lt/time-period&gt
-
-    &ltdescription&gt
-    Diagnose and resolve first- and second-level hardware and
-    software technical issues.
-    &lt/description&gt
-
-    &lt!------------------------&gt
-
-    &lttitle&gt Helpdesk Analyst &lt/title&gt
-    &ltcompany&gt Exterion Media UK &lt/company&gt
-    &lttime-period&gt November 2014 - March 2016 &lt/time-period&gt
-
-    &ltdescription&gt
-    First- and second-level support for IT issues including hardware,
-    software, and infrastructure issues.
-    &lt/description&gt
-
-    &lt!------------------------&gt
-
-    &lttitle&gt PC Support Analyst &lt/title&gt
-    &ltcompany&gt Robert W. Baird & Co. &lt/company&gt
-    &lttime-period&gt March 2003 - October 2014 &lt/time-period&gt
-
-    &ltdescription&gt
-    Second-level IT support for hardware and software issues.
-    &lt/description&gt
-
-              </code></pre>
-            </div>
-          </div>
-          <div class="block">
-            <h3 class="sub-title text-center">View R&eacute;sum&eacute;</h3>
-            <p class="text-center">
-              <a class="btn btn-cta-primary" href="https://drive.google.com/file/d/0B3i9YBE-XJTCdGZudkJ6dENMdkk/view" target="_blank">View R&eacute;sum&eacute;</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ****** CONTACT ****** -->
-    <section id="contact" class="contact section has-pattern">
-      <div class="container text-center">
-        <div class="contact-inner">
-          <h2 class="title text-center">Contact</h2>
-          <p class="intro  text-center">Feel free to get in touch if you have any questions or suggestions.</p>
-          <div class="author-message">
-            <div class="profile">
-              <img class="img-responsive" src="img/Color_Robert_Spears_11753.jpg" alt="Robert Spears pic" />
-            </div>
-            <div class="speech-bubble">
-              <h3 class="sub-title"><strong>About Me</strong></h3>
-              <p>I have been in the information technology career field, as an IT Support Analyst, since college. Occasionally in my job role I would have an assignment that would involve some amount of coding or manipulating code. Joining the General Assembly Web Development program has helped me to realize how interesting and rewarding coding is for me. The ability to turn an idea into a tangible, working product is a very gratifying experience and I look forward to the continuation of learning new development skills and techniques.</p>
-              <p>In my spare time, I enjoy trying new recipes in the kitchen and weight-training.</p>
-              <div class="source">
-                <span class="name"><a class="scrollTo" href="#">Robert Spears</a></span>
-                <br />
-                <span class="title">Full Stack Web Developer</span>
-              </div>
-            </div>
-          </div>
-          <div class="clearfix"></div>
-          <div class="info text-center">
-            <h4 class="sub-title">Get Connected</h4>
-            <ul class="social-icons list-inline">
-              <li><a href="https://www.linkedin.com/in/robertspears1/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/Robert1GA" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li class="last"><a href="mailto:robert.r.spears@gmail.com"><i class="fa fa-envelope"></i></a></li>
-              <!-- STILL DECIDING ON POSTING PHONE NUMBER -->
-              <!-- <li><a href="#"><i class="fa fa-phone"></i></a></li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ****** FOOTER ****** -->
-    <footer class="footer">
-      <div class="container text-center">
-        <small class="copyright">&copy; 2017 Robert R. Spears III</small>
-      </div>
-    </footer>
-    <!-- Script Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/plugins/jquery.easing.1.3.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
-    <script src="js/plugins/jquery.scrollTo.min.js"></script>
-    <script src="js/plugins/prism-min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+</div>
+</body>
 </html>
